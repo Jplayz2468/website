@@ -1,5 +1,20 @@
 <!DOCTYPE html>
-<html>
-  <head><title>My Site</title></head>
-  <body><h1>Hello from Cloudflare!</h1></body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Popunder Demo</title>
+</head>
+<body>
+  <h1>Click the button below</h1>
+  <button onclick="loadPopunder()">Open Popunder</button>
+
+  <script>
+    function loadPopunder() {
+      const s = document.createElement('script');
+      s.type = 'text/javascript';
+      s.src = '//pl26678200.profitableratecpm.com/1a/c1/b4/1ac1b4fafed47a9017289391b02d2b2b.js';
+      document.body.appendChild(s);
+    }
+  </script>
+</body>
 </html>
